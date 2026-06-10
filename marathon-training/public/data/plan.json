@@ -1,0 +1,248 @@
+{
+  "raceDate": "2026-10-11T05:30:00",
+  "startDate": "2026-06-09",
+  "defaultGoalTime": "4:30:00",
+  "phases": {
+    "base":  { "label": "Base",  "weeks": [1,2,3,4],             "color": "green"  },
+    "build": { "label": "Build", "weeks": [5,6,7,8],             "color": "amber"  },
+    "peak":  { "label": "Peak",  "weeks": [9,10,11,12,13,14,15], "color": "blue"   },
+    "taper": { "label": "Taper", "weeks": [16,17],               "color": "purple" },
+    "race":  { "label": "Race",  "weeks": [18],                  "color": "orange" }
+  },
+  "weeks": [
+    {
+      "week": 1, "phase": "base", "dates": "Jun 9–15", "totalMiles": 14,
+      "note": "First week! Don't worry about pace. Just move. Walk breaks are encouraged.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "tue": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "wed": { "type": "cross", "label": "XT / yoga",     "miles": 0 },
+        "thu": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "fri": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "sat": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "sun": { "type": "long",  "label": "5 mi long run", "miles": 5 }
+      }
+    },
+    {
+      "week": 2, "phase": "base", "dates": "Jun 16–22", "totalMiles": 15,
+      "note": "If Sunday feels hard, slow down. Finish feeling like you could do 2 more miles.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "tue": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "wed": { "type": "cross", "label": "XT / yoga",     "miles": 0 },
+        "thu": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "fri": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "sat": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "sun": { "type": "long",  "label": "6 mi long run", "miles": 6 }
+      }
+    },
+    {
+      "week": 3, "phase": "base", "dates": "Jun 23–29", "totalMiles": 18,
+      "note": "Get proper running shoes this week if you haven't already.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "tue": { "type": "easy",  "label": "4 mi easy",     "miles": 4 },
+        "wed": { "type": "cross", "label": "XT / yoga",     "miles": 0 },
+        "thu": { "type": "easy",  "label": "4 mi easy",     "miles": 4 },
+        "fri": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "sat": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "sun": { "type": "long",  "label": "7 mi long run", "miles": 7 }
+      }
+    },
+    {
+      "week": 4, "phase": "base", "dates": "Jun 30–Jul 6", "totalMiles": 17,
+      "note": "Cutback week — volume drops slightly. Your body needs this.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "tue": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "wed": { "type": "cross", "label": "XT / yoga",     "miles": 0 },
+        "thu": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "fri": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "sat": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "sun": { "type": "long",  "label": "8 mi long run", "miles": 8 }
+      }
+    },
+    {
+      "week": 5, "phase": "build", "dates": "Jul 7–13", "totalMiles": 23,
+      "note": "First tempo run! Warm up 10 min easy, run 3 miles at tempo pace, cool down 10 min.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "tue": { "type": "easy",  "label": "4 mi easy",     "miles": 4 },
+        "wed": { "type": "tempo", "label": "3 mi tempo",    "miles": 3, "speedWork": true, "altLabel": "3 mi easy", "altType": "easy", "altMiles": 3 },
+        "thu": { "type": "easy",  "label": "4 mi easy",     "miles": 4 },
+        "fri": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "sat": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "sun": { "type": "long",  "label": "9 mi long run", "miles": 9 }
+      }
+    },
+    {
+      "week": 6, "phase": "build", "dates": "Jul 14–20", "totalMiles": 25,
+      "note": "Double digits on Sunday! Practice fueling: one gel at mile 5.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "wed": { "type": "tempo", "label": "3 mi tempo",      "miles": 3, "speedWork": true, "altLabel": "3 mi easy", "altType": "easy", "altMiles": 3 },
+        "thu": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "sun": { "type": "long",  "label": "10 mi long run",  "miles": 10 }
+      }
+    },
+    {
+      "week": 7, "phase": "build", "dates": "Jul 21–27", "totalMiles": 28,
+      "note": "First Yasso 800s! A track is ideal. 4 reps with equal-time recovery jog.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "wed": { "type": "yasso", "label": "4×800m Yasso",    "miles": 4, "speedWork": true, "altLabel": "3 mi easy", "altType": "easy", "altMiles": 3 },
+        "thu": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "sun": { "type": "long",  "label": "11 mi long run",  "miles": 11 }
+      }
+    },
+    {
+      "week": 8, "phase": "build", "dates": "Jul 28–Aug 3", "totalMiles": 26,
+      "note": "Cutback week. Tempo Wednesday, but volume is intentionally lower.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "wed": { "type": "tempo", "label": "3 mi tempo",      "miles": 3, "speedWork": true, "altLabel": "3 mi easy", "altType": "easy", "altMiles": 3 },
+        "thu": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "3 mi easy",       "miles": 3 },
+        "sun": { "type": "long",  "label": "12 mi long run",  "miles": 12 }
+      }
+    },
+    {
+      "week": 9, "phase": "peak", "dates": "Aug 4–10", "totalMiles": 33,
+      "note": "Start fueling every 40–45 min on long runs. Practice the brand you'll use race day.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "wed": { "type": "yasso", "label": "5×800m Yasso",    "miles": 5, "speedWork": true, "altLabel": "4 mi easy", "altType": "easy", "altMiles": 4 },
+        "thu": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "sun": { "type": "long",  "label": "14 mi long run",  "miles": 14 }
+      }
+    },
+    {
+      "week": 10, "phase": "peak", "dates": "Aug 11–17", "totalMiles": 33,
+      "note": "Tempo: warm up 1 mi, run 4 mi at tempo pace, cool down 1 mi.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "wed": { "type": "tempo", "label": "4 mi tempo",      "miles": 4, "speedWork": true, "altLabel": "4 mi easy", "altType": "easy", "altMiles": 4 },
+        "thu": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "sun": { "type": "long",  "label": "15 mi long run",  "miles": 15 }
+      }
+    },
+    {
+      "week": 11, "phase": "peak", "dates": "Aug 18–24", "totalMiles": 34,
+      "note": "Hill repeats: find a 200–400m hill. 6 hard uphill efforts, walk/jog back down.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",             "miles": 0 },
+        "tue": { "type": "easy",  "label": "5 mi easy",        "miles": 5 },
+        "wed": { "type": "hills", "label": "Hill repeats 6×",  "miles": 4, "speedWork": true, "altLabel": "4 mi easy", "altType": "easy", "altMiles": 4 },
+        "thu": { "type": "easy",  "label": "5 mi easy",        "miles": 5 },
+        "fri": { "type": "rest",  "label": "Rest",             "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",        "miles": 4 },
+        "sun": { "type": "long",  "label": "16 mi long run",   "miles": 16 }
+      }
+    },
+    {
+      "week": 12, "phase": "peak", "dates": "Aug 25–31", "totalMiles": 38,
+      "note": "18 miles! This is a milestone. Run easy, fuel well, stay hydrated.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "wed": { "type": "yasso", "label": "7×800m Yasso",    "miles": 6, "speedWork": true, "altLabel": "4 mi easy", "altType": "easy", "altMiles": 4 },
+        "thu": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "sun": { "type": "long",  "label": "18 mi long run",  "miles": 18 }
+      }
+    },
+    {
+      "week": 13, "phase": "peak", "dates": "Sep 1–7", "totalMiles": 38,
+      "note": "First 20-miler! The peak of your training. Run 90 sec/mi slower than goal pace.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "wed": { "type": "tempo", "label": "4 mi tempo",      "miles": 4, "speedWork": true, "altLabel": "4 mi easy", "altType": "easy", "altMiles": 4 },
+        "thu": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "sun": { "type": "long",  "label": "20 mi long run",  "miles": 20 }
+      }
+    },
+    {
+      "week": 14, "phase": "peak", "dates": "Sep 8–14", "totalMiles": 42,
+      "note": "10×800m Yasso is the gold standard fitness test. Completing it = ready to race.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "wed": { "type": "yasso", "label": "10×800m Yasso",   "miles": 8, "speedWork": true, "altLabel": "5 mi easy", "altType": "easy", "altMiles": 5 },
+        "thu": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "sun": { "type": "long",  "label": "20 mi long run",  "miles": 20 }
+      }
+    },
+    {
+      "week": 15, "phase": "peak", "dates": "Sep 15–21", "totalMiles": 36,
+      "note": "Begin taper. Volume drops. Trust the process — you've done the work.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "wed": { "type": "tempo", "label": "4 mi tempo",      "miles": 4, "speedWork": true, "altLabel": "4 mi easy", "altType": "easy", "altMiles": 4 },
+        "thu": { "type": "easy",  "label": "5 mi easy",       "miles": 5 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "sun": { "type": "long",  "label": "18 mi long run",  "miles": 18 }
+      }
+    },
+    {
+      "week": 16, "phase": "taper", "dates": "Sep 22–28", "totalMiles": 28,
+      "note": "Taper week 1. Feel antsy — that's good. Your legs are loading energy.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "tue": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "wed": { "type": "tempo", "label": "3 mi tempo",      "miles": 3, "speedWork": true, "altLabel": "3 mi easy", "altType": "easy", "altMiles": 3 },
+        "thu": { "type": "easy",  "label": "4 mi easy",       "miles": 4 },
+        "fri": { "type": "rest",  "label": "Rest",            "miles": 0 },
+        "sat": { "type": "easy",  "label": "3 mi easy",       "miles": 3 },
+        "sun": { "type": "long",  "label": "14 mi long run",  "miles": 14 }
+      }
+    },
+    {
+      "week": 17, "phase": "taper", "dates": "Sep 29–Oct 5", "totalMiles": 20,
+      "note": "Final sharpener week. Easy and relaxed. Carb-load planning begins Friday.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "tue": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "wed": { "type": "tempo", "label": "2 mi tempo",    "miles": 2, "speedWork": true, "altLabel": "2 mi easy", "altType": "easy", "altMiles": 2 },
+        "thu": { "type": "easy",  "label": "3 mi easy",     "miles": 3 },
+        "fri": { "type": "rest",  "label": "Rest",          "miles": 0 },
+        "sat": { "type": "easy",  "label": "2 mi easy",     "miles": 2 },
+        "sun": { "type": "long",  "label": "10 mi easy",    "miles": 10 }
+      }
+    },
+    {
+      "week": 18, "phase": "race", "dates": "Oct 6–11", "totalMiles": 33.2,
+      "note": "Race week. Sleep. Hydrate. Eat carbs. Don't try anything new. Trust your training.",
+      "days": {
+        "mon": { "type": "rest",  "label": "Rest",           "miles": 0 },
+        "tue": { "type": "easy",  "label": "3 mi easy",      "miles": 3 },
+        "wed": { "type": "cross", "label": "XT / yoga",      "miles": 0 },
+        "thu": { "type": "easy",  "label": "2 mi easy",      "miles": 2 },
+        "fri": { "type": "rest",  "label": "Rest + expo",    "miles": 0 },
+        "sat": { "type": "easy",  "label": "2 mi shakeout",  "miles": 2 },
+        "sun": { "type": "race",  "label": "🏁 RACE DAY",    "miles": 26.2 }
+      }
+    }
+  ]
+}

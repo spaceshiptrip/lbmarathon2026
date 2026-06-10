@@ -1,0 +1,133 @@
+{
+  "easy": {
+    "label": "Easy run", "color": "green", "icon": "🟢",
+    "tagline": "The foundation of all your training.",
+    "whatItIs": "An easy run is a slow, conversational-pace run where you could comfortably hold a full conversation without gasping. It feels almost too easy — that's correct. Easy runs build aerobic base, improve fat metabolism, strengthen connective tissue, and aid recovery.",
+    "howToDo": [
+      "Run slow enough that you can say 5–6 words without pausing to breathe.",
+      "If you have a heart rate monitor, stay in Zone 2 (roughly 60–70% of max HR).",
+      "Don't worry about pace. Run by feel or HR, not by speed.",
+      "Walk breaks are fine, especially in the first 4 weeks."
+    ],
+    "paceNote": "easyPace",
+    "commonMistakes": "Going too fast is the #1 beginner mistake. If you're huffing after a sentence, slow down."
+  },
+  "long": {
+    "label": "Long run", "color": "blue", "icon": "🔵",
+    "tagline": "The most important workout of the week.",
+    "whatItIs": "The long run builds the endurance and mental resilience required to cover 26.2 miles. It trains your body to burn fat efficiently, stress-tests your legs, and lets you practice nutrition and hydration strategies. Missing a long run is the one thing most likely to leave you undertrained.",
+    "howToDo": [
+      "Run 60–90 seconds per mile slower than your goal race pace.",
+      "Start with a 5-minute walk warm-up. End with a 5-minute walk cool-down.",
+      "Use a run/walk strategy if needed: 9 min run / 1 min walk works great for beginners.",
+      "Bring water or plan your route around water fountains.",
+      "Practice race-day nutrition: take a gel or chew every 45 min on runs over 10 miles.",
+      "Do this on Sunday — your body needs Monday off to recover."
+    ],
+    "paceNote": "longRunPace",
+    "commonMistakes": "Running too fast on long runs leads to injury and excessive fatigue. Slow is the goal."
+  },
+  "tempo": {
+    "label": "Tempo run", "color": "orange", "icon": "🟠",
+    "tagline": "Comfortably hard. Builds your lactate threshold.",
+    "whatItIs": "A tempo run is run at threshold pace — the fastest pace you can sustain for about an hour. It's harder than easy but not a sprint. Physiologically, it trains your body to clear lactate faster, which lets you sustain a faster pace on race day. Also called a threshold run.",
+    "howToDo": [
+      "Warm up with 10 min of easy running first.",
+      "Run at tempo pace — you should be able to say 2–3 words but not hold a conversation.",
+      "Maintain this effort for the prescribed distance (usually 2–4 miles).",
+      "Cool down with 10 min easy running.",
+      "Total session including warm-up/cool-down is about 40–50 min."
+    ],
+    "paceNote": "tempoPace",
+    "commonMistakes": "Tempo pace is NOT a sprint. If you're dying after 1 mile, you started too fast."
+  },
+  "yasso": {
+    "label": "Yasso 800s", "color": "purple", "icon": "🟣",
+    "tagline": "The classic marathon speed predictor workout.",
+    "whatItIs": "Yasso 800s, named for Bart Yasso of Runner's World, are 800-meter (half-mile) repeats. The magic: if you can run 10 × 800m with your goal time in minutes:seconds, you're fit enough to run the marathon in that time in hours:minutes. A 4:30 goal means running 800s in 4:30 each.",
+    "howToDo": [
+      "Warm up with 10–15 min easy running.",
+      "Run 800m (2 laps of a track, or 0.5 miles on GPS) at your Yasso target pace.",
+      "Jog easy for the SAME amount of time as your 800m rep — this is the recovery.",
+      "Repeat for the prescribed number of reps (start with 4–5, build to 10 by week 14).",
+      "Cool down with 10 min easy running.",
+      "A track is ideal but any flat surface works with GPS."
+    ],
+    "paceNote": "yassoTarget",
+    "schedule": "Introduced week 7 with 4×800m. Build by 1 rep every 2–3 weeks. Peak 10×800m in week 14.",
+    "commonMistakes": "Don't skip the recovery jog — it's as important as the rep itself. Running it too fast defeats the purpose."
+  },
+  "intervals": {
+    "label": "Intervals / 800m repeats", "color": "purple", "icon": "🟣",
+    "tagline": "Short, fast efforts that build speed and VO2 max.",
+    "whatItIs": "Interval training alternates fast-effort running with recovery jogs. For marathon training, 800m repeats at roughly 5K effort are the most common. They improve your cardiovascular ceiling (VO2 max), which makes every other pace feel easier.",
+    "howToDo": [
+      "Warm up with 10–15 min easy running + 4 × 20-second strides.",
+      "Run each 800m repeat at your interval (5K) pace — controlled hard effort.",
+      "Recover with a 400m (0.25 mi) easy jog between reps.",
+      "Cool down 10 min easy."
+    ],
+    "paceNote": "intervalPace",
+    "commonMistakes": "Going all-out on rep 1 and dying by rep 4. Even effort across all reps is the goal."
+  },
+  "hills": {
+    "label": "Hill repeats", "color": "red", "icon": "🔴",
+    "tagline": "Nature's strength training for runners.",
+    "whatItIs": "Hill repeats build leg strength, improve running economy, and add intensity without the joint stress of track intervals. They force proper running form naturally — high knees, arm drive, forward lean. Long Beach is flat, but hills in training make flat race day feel easy.",
+    "howToDo": [
+      "Find a hill with a 4–6% grade, about 200–400m long.",
+      "Warm up with 10–15 min easy flat running.",
+      "Run uphill HARD at a 5K effort (about 85–90% max HR). Pump your arms.",
+      "Walk or jog very slowly back down — this is full recovery.",
+      "Start with 4–6 repeats. Build to 8–10 over several weeks.",
+      "Cool down with 10 min easy flat running.",
+      "No hills nearby? Use a treadmill set to 5–6% incline."
+    ],
+    "paceNote": null,
+    "paceNoteText": "Effort-based, not pace-based. Aim for RPE 8/10 on the uphill. Pace is irrelevant on hills.",
+    "schedule": "Introduced week 11 as an occasional swap for intervals.",
+    "commonMistakes": "Running the downhill fast. Downhill recovery is essential — your quads will thank you."
+  },
+  "mileRepeats": {
+    "label": "Mile repeats", "color": "purple", "icon": "🟣",
+    "tagline": "Longer intervals that build race-pace stamina.",
+    "whatItIs": "Mile repeats (1600m) bridge the gap between tempo running and short track intervals. They're more specific to marathon training because they require sustaining a harder effort over a longer distance — closer to race conditions.",
+    "howToDo": [
+      "Warm up with 15 min easy running.",
+      "Run each mile at mile-repeat pace — slightly faster than tempo, slower than 5K pace.",
+      "Recover with a 2–3 min easy jog or walk between reps.",
+      "Start with 3 repeats, build to 5.",
+      "Cool down with 10–15 min easy running."
+    ],
+    "paceNote": "mileRepeatPace",
+    "schedule": "Optional swap for Yasso 800s in weeks 12–15 for variety.",
+    "commonMistakes": "Mile repeats aren't all-out sprints. Think 'controlled fast.'"
+  },
+  "cross": {
+    "label": "Cross-training", "color": "pink", "icon": "🩷",
+    "tagline": "Aerobic fitness without the pounding.",
+    "whatItIs": "Cross-training (XT) gives your running muscles a break while maintaining cardiovascular fitness. For a runner who already does yoga and strength work, this slot is very flexible. Good options: cycling, swimming, elliptical, yoga flow, or pool running.",
+    "howToDo": [
+      "Choose any non-impact or low-impact cardio activity.",
+      "Keep intensity moderate — this is not a hard day.",
+      "Duration: 30–50 minutes is plenty.",
+      "Yoga counts — especially hip openers, hamstring work, and hip flexor stretches, which directly benefit running.",
+      "Strength training: reduce lower body volume (fewer sets, no heavy squats or lunges) from week 10 onward."
+    ],
+    "paceNote": null,
+    "paceNoteText": "No pace target. Keep effort easy — heart rate around 60% of max."
+  },
+  "rest": {
+    "label": "Rest day", "color": "gray", "icon": "⬜",
+    "tagline": "This is when you actually get stronger.",
+    "whatItIs": "Rest days are mandatory adaptation days, not wasted training days. Running breaks down muscle tissue; rest is when your body repairs it stronger. Skipping rest days is the fastest route to overtraining, injury, and burnout. Monday is always rest in this plan.",
+    "howToDo": [
+      "Do nothing strenuous.",
+      "Light walking (under 30 min) is fine.",
+      "Foam rolling, stretching, and mobility work are great on rest days.",
+      "Eat well and sleep — this is when the gains happen."
+    ],
+    "paceNote": null,
+    "paceNoteText": "No running. Optional gentle mobility only."
+  }
+}
