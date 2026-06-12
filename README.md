@@ -245,6 +245,43 @@ The current architecture is specifically structured so this addition requires no
 
 ---
 
-## Deployment (GitHub Pages — coming soon)
+## Deployment (GitHub Pages)
 
-Deployment via GitHub Actions and `gh-pages` is not yet configured. See the design spec (`marathon-training-app-spec (1).md`) for the planned deployment approach. This section will be updated when the CI/CD pipeline is set up.
+The app deploys automatically to GitHub Pages on every push to `main` via GitHub Actions (`.github/workflows/deploy.yml`).
+
+Live URL: `https://spaceshiptrip.github.io/lbmarathon2026/`
+
+### One-time GitHub setup
+
+You only need to do this once per repo. After that, every push to `main` deploys automatically.
+
+1. Go to **github.com/spaceshiptrip/lbmarathon2026 → Settings → Pages**
+2. Under **Source**, select **GitHub Actions** (not "Deploy from a branch")
+3. Save
+
+That's it. The next push to `main` will trigger the workflow and publish the site.
+
+### How the deployment works
+
+The workflow (`.github/workflows/deploy.yml`) runs two jobs:
+
+**build job:**
+1. Checks out the repo
+2. Sets up Node 22 (reads `marathon-training/.nvmrc`)
+3. Runs `actions/configure-pages` — this outputs the repo's base path (`/lbmarathon2026`)
+4. Runs `npm ci` inside `marathon-training/`
+5. Runs `npm run build` with `VITE_BASE_URL=/lbmarathon2026/` so Vite sets the correct asset paths for GitHub Pages
+6. Uploads `marathon-training/dist/` as a Pages artifact
+
+**deploy job:**
+1. Deploys the uploaded artifact directly to GitHub Pages via the Pages API (no `gh-pages` branch needed)
+
+### Why `VITE_BASE_URL` matters
+
+Locally, `vite.config.js` uses `base: '/'` so assets load from `/`. On GitHub Pages, the site is served under `/lbmarathon2026/`, so assets must load from `/lbmarathon2026/`. The `VITE_BASE_URL` environment variable controls this — it's only set during the CI build, so local development is unaffected.
+
+The `usePlanData.js` hook uses `import.meta.env.BASE_URL` (which Vite sets automatically from the `base` config) when fetching the JSON data files, so `plan.json` and `workouts.json` also resolve correctly in both environments.
+
+### Manual deploy trigger
+
+You can trigger a deployment without pushing code: go to **Actions → Build and deploy to GitHub Pages → Run workflow**.
